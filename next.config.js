@@ -1,7 +1,7 @@
- module.exports = {
+module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['source.unsplash.com'],
+    domains: ['source.unsplash.com']
   },
   // ...
 };

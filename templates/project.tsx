@@ -42,11 +42,11 @@ const Project = ({
           className={cx(styles.cssImg)}
           tw='relative rounded-lg brightness-50 hover:(brightness-100 transition ease-in-out before:(opacity-0 transition ease-in-out duration-200) ) before:(bg-crayola absolute opacity-25  h-full w-full z-50 inset-0)'
         >
-          <img
+          <Image
             tw='absolute h-full w-full object-cover  '
             src={image}
             alt={name}
-          ></img>
+          ></Image>
         </div>
         <div className={cx(styles.cssCard)}>
           <div
@@ -77,7 +77,7 @@ const Project = ({
             css={orientation == 'left' ? tw`text-start` : tw`text-end`}
           >
             {techologies.map((tech, index) => (
-              <span>{tech} </span>
+              <span key={index}>{tech} </span>
             ))}
           </div>
           <div
@@ -147,10 +147,10 @@ const Project = ({
             id='project-image'
             tw='col-start-1 grayscale rounded-md h-full brightness-50 '
           >
-            <img
+            <Image
               src={image}
               tw='blur-[1px] h-full w-full object-cover absolute rounded-md'
-            ></img>
+            ></Image>
           </div>
         </div>
       </div>

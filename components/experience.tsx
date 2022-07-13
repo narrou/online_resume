@@ -4,6 +4,8 @@ import { srConfig } from '../config';
 import usePrefersReducedMotion from '../hooks/usePrefersReducedMotion';
 import Project from '../templates/project';
 import Title from './title';
+import modelizerPic from '../public/Modelizer.png';
+import resumePic from '../public/resume.png';
 
 const Experience = () => {
   const revealContainer = useRef(null);
@@ -26,7 +28,7 @@ const Experience = () => {
       name: 'Modelizer',
       description:
         'An application that allows you to create and test models used to automatically recognize banking documents.',
-      image: '/Modelizer.png',
+      image: modelizerPic,
       techologies: ['Python', 'Jetbrains PyCharm', 'PyQT5', 'MariaDB'],
       link: '',
       orientation: 'left'
@@ -35,9 +37,9 @@ const Experience = () => {
       name: 'Online Resume',
       description:
         'An online resume using React and Styled Components. It is a personal project that I have created to learn React and tailwind.',
-      image: '/resume.png',
+      image: resumePic,
       techologies: ['React', 'Typescript', 'Tailwind', 'Next.js'],
-      link: 'https://github.com/narrou/online-resume',
+      link: 'https://github.com/narrou/online_resume',
       orientation: 'right'
     }
   ];

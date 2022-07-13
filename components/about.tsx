@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 import { srConfig } from '../config';
 import tw from 'twin.macro';
 import Title from './title';
+import profilePic from '../public/profile.jpg';
 import usePrefersReducedMotion from '../hooks/usePrefersReducedMotion';
 
 const About = () => {
@@ -90,7 +91,7 @@ const About = () => {
           <div tw='w-full block relative' className='group'>
             <div tw='block relative after:(absolute md:(top-5 ) top-10 transition duration-75 group-hover:(-translate-x-2 -translate-y-2)left-5 -z-10 w-full h-full border-2 border-crayola)'>
               <Image
-                src='/profile.jpg'
+                src={profilePic}
                 width='300'
                 height='300'
                 tw='after:(absolute bg-crayola opacity-50 w-full h-full z-10 inset-0) rounded-lg'

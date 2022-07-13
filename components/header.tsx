@@ -156,7 +156,15 @@ export default function Header() {
                       leaveFrom='opacity-100 translate-y-0'
                       leaveTo='opacity-0 -translate-y-4'
                     >
-                      <CustomButton>Resume</CustomButton>
+                      <CustomButton>
+                        <a
+                          href='/JulienDomontCV.pdf'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          Resume
+                        </a>
+                      </CustomButton>
                     </Transition>
 
                     <Transition
