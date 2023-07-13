@@ -16,16 +16,16 @@ const navigation = [
     current: false
   },
   {
-    name: 'Work',
+    name: 'Experience',
     order: '03.',
-    href: '#work',
+    href: '#jobs',
     current: false
   },
 
   {
-    name: 'Experience',
+    name: 'Work',
     order: '02.',
-    href: '#jobs',
+    href: '#work',
     current: false
   },
   {
