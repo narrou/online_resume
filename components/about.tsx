@@ -38,7 +38,7 @@ const About = () => {
           <p>
             I've been programming for a long time, mostly to learn and improve.
             These past two years, I've been working alongside a talented team of
-            engineers and helped them build good and maintable software.
+            engineers and helped them build good and maintainable software.
           </p>
           <p>
             I am motivated, resourceful and always looking for new challenges.
