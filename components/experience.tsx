@@ -46,7 +46,7 @@ const Experience = () => {
 
   return (
     <section
-      id='jobs'
+      id='work'
       tw='hero flex flex-col px-4 sm:pt-16 lg:pt-24 md:pt-20 my-0 mx-auto max-w-5xl justify-start items-start'
       ref={revealContainer}
     >
